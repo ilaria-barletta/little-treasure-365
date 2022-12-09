@@ -8,7 +8,7 @@
 body{
     font-family: Stalemate, sans-serif;
     font-weight: 300;
-    color: #efe9e9
+    color: #97165f
     
 }
 
@@ -19,7 +19,7 @@ h1, h2 {
     text-transform: uppercase;
     text-shadow: 4px 4px 4px rgb(30, 28, 30);
     letter-spacing: 4px;
-    color: #f1e1ea
+    color: #97165f
     
 }
 #logo{
@@ -50,8 +50,26 @@ h1, h2 {
 .active{
     border-bottom: 1px solid #3a3a3a;
 }
+/*crochet image*/
+#crochet-outer{
+    height:600px;
+    width:100%;
+    overflow: hidden;
+}
+
 #crochet-image{
     height:600px;
     width:100%;
     background: url('../images/crochet-image.jpeg') no-repeat center center;
+    /*animates zoom effect on loading page*/
+    animation-name: crochet-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+/*zooming effect on the crochet image*/
+@keyframes crochet-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{transform: scale(1.1);}
 }
