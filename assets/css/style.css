@@ -25,6 +25,8 @@ h1, h2 {
 #logo{
     float: left;
     font-size: 280%
+    
+    margin-left: 30px;
 }
 #menu {
     font-size:110%;
@@ -96,4 +98,29 @@ h1, h2 {
     right: 150px;
 
     position: absolute;
+}
+/*basics to get started section*/
+#basicstogetstarted {
+    height: 600px;
+    
+    
+
+}
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: #97165f;
+}
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: yellow;
+}
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+
 }
