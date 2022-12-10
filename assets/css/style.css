@@ -263,7 +263,7 @@ footer {
 
     /* for small screens sixe from 950 px wide down*/
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 950){
 
     #menu {
         clear: left;
@@ -273,4 +273,38 @@ footer {
         line-height: 25px;
 
     }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #basicstogetstarted {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading{
+        width: inherit;
+    }
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+    #photos{
+        column-count: 3;
+    }
+    
+
+}
+/*for small screen sizes below 800 px width*/
+@media screen and (max-width: 800px) {
+    #photos{
+        column-count: 2;
+    }
+    
 }
