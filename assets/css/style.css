@@ -263,7 +263,7 @@ footer {
 
     /* for small screens sixe from 950 px wide down*/
 
-@media screen and (max-width: 950){
+@media screen and (max-width: 950px){
 
     #menu {
         clear: left;
