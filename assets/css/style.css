@@ -299,7 +299,6 @@ footer {
         column-count: 3;
     }
     
-
 }
 /*for small screen sizes below 800 px width*/
 @media screen and (max-width: 800px) {
