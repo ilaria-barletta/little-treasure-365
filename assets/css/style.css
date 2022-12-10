@@ -248,10 +248,19 @@ footer {
         float: left;
         padding: 0;
     }
+    #templates > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+        
+    
+    }
     hr {
         display: none;
     }
-}
+
     /* for small screens sixe from 950 px wide down*/
 
 @media screen and (max-width: 1200px){
